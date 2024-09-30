@@ -229,9 +229,10 @@ const fizzbuzz=[];
 for (const element of nums) {
    if (element% 5 === 0 && element% 3=== 0){
  fizzbuzz.push(element);
-   }else if(element% 5 ===0 ){
+
+   } if(element% 5 ===0 ){
    buzz.push(element);
-   }else if(element% 3=== 0){
+   } if(element% 3=== 0){
     fizz.push(element);
    }
  }
